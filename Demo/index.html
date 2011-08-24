@@ -1,0 +1,70 @@
+<html>
+<head>
+  <title>Slideup Demo for iUI Framework. By Sergio Panagia.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0">
+  <link rel="icon" type="image/png" href="iui/iui-favicon.png">
+  <link rel="apple-touch-icon" href="iui/iui-logo-touch-icon.png" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <link rel="stylesheet" href="iui/iui.css" type="text/css" />
+
+  <link rel="stylesheet" title="Default" href="iui/t/default/default-theme.css"  type="text/css"/>
+  <link rel="stylesheet" href="css/iui-panel-list.css" type="text/css" />
+  <script type="application/x-javascript" src="iui/iui.js"></script>
+  
+	<link rel="stylesheet" href="../Source/slideup.css" type="text/css" />  
+	
+	<style> 
+	#slideDialog
+	{
+		background-color:#679ADD;   	
+	} 
+	
+	.pButton
+	{       
+		-webkit-border-image:none !important;
+		background-color:#fff !important;
+		border:0px;
+		-webkit-border-radius:5px;
+	    padding-left:8px;
+		padding-right:8px;
+	   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(74,74,74,0.85)), color-stop(0.5, rgba(20,20,20,0.75)), color-stop(0.5, rgba(2,2,2,0.75)), to(rgba(14,14,14,0.75)));
+		display:block;
+		color:#fff;
+		text-shadow:0px -1px #0004;
+		width:80%;
+		height:44px;
+		margin:0 auto;
+		margin-top:15px;
+		font-size:90%;
+	}
+
+	</style>
+	
+    <script type="text/javascript" src="../Source/slideup.js"></script> 
+	<script type="text/javascript">
+	window.addEventListener('DOMContentLoaded', function(e)
+	{         
+		var mySlide = new Slideup('openDialog', 'closeDialog', 'slideDialog',
+		onCloseFn = function()
+		{ 
+			//dialog closes, this event is optional
+		});
+	}, false);
+	</script>
+</head>
+<body>
+    <div class="toolbar">
+        <h1 id="pageTitle"></h1>
+        <a id="backButton" class="button" href="#"></a>
+    </div>    
+<div id="index" title="home" selected="true">
+	<button class="pButton" id="openDialog">Open Dialog</button>
+	
+	<div id="slideDialog" class="slideup">
+			<button class="pButton" id="closeDialog">Close</button>
+	</div>   
+</div>
+
+
+</body>
+</html>

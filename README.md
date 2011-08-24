@@ -26,4 +26,7 @@ Javascript:
 	onCloseFn = function()
 	{
 		//fired on dialog close, optional			
-	}); 
+	});   
+
+==========
+License: MIT-STYLE

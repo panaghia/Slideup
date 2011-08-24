@@ -1,3 +1,12 @@
+/*
+description: Slideup
+license: MIT-STYLE
+
+authors:
+- Sergio Panagia (http://panaghia.it)
+
+*/
+
 (function()
 {
 	Slideup = function(onEl, offEl, dialogEl, onCloseFn)
@@ -17,7 +26,7 @@
 			e.preventDefault();
 			var viewportHeight = window.innerHeight;      
 		    that.dialogEl.style.top = viewportHeight+'px';
-			that.dialogEl.style.height = viewportHeight+'px';
+			that.dialogEl.style.height = parseInt(viewportHeight+45)+'px';
 			that.dialogEl.style.display = 'block';
 			//that.dialogEl.style.webkitTransform = 'translate3d(0, 0, 0)';
 			
