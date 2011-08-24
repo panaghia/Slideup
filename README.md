@@ -19,6 +19,9 @@ HTML:
 	 
 Javascript: 
 
+	var switchOnElement = 'openDialog';
+	var switchOffElement = 'closeDialog';
+	var dialogElement = 'dialogPanel';
 	var slideup = new Slideup(switchOnElement, switchOffElement, dialogElement,
 	onCloseFn = function()
 	{
