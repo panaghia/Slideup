@@ -1,6 +1,6 @@
 Slideup is a JavaScript plugin to create slideup dialog in iOs-style.
 
-Ideally usage with iUI framework; works everywhere since is written in pure JavaScript.
+Best fit with iUI framework; works everywhere since written in pure JavaScript.
 
 ==========
 How to use  
