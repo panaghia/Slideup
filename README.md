@@ -1,4 +1,6 @@
-Slideup is a iUI mobile framework libray plugin to create slideup dialog in iOs style.
+Slideup is a JavaScript plugin to create slideup dialog in iOs-style.
+
+Ideally usage with iUI framework; works everywhere since is written in pure JavaScript.
 
 ==========
 How to use  
@@ -6,7 +8,7 @@ How to use
 HTML:
 
 	<div id="index" title="Main page">
-		<a href="#" id="openDialog">Show dialog</a>
+		<button id="openDialog">Show dialog</button>
 		
 		<!-- this is the dialog panel to show -->
 		<div id="dialogPanel" class="slideup">
@@ -29,4 +31,5 @@ Javascript:
 	});   
 
 ==========
-License: MIT-STYLE
+License: MIT-STYLE  
+Beta version
