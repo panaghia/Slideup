@@ -4,6 +4,7 @@ Slideup is a iUI mobile framework libray plugin to create slideup dialog in iOs 
 How to use  
 
 HTML:
+
 	<div id="index" title="Main page">
 		<a href="#" id="openDialog">Show dialog</a>
 		
@@ -14,10 +15,12 @@ HTML:
 			</div>   	
 		</div> 
 		<!-- end -->   
-	</div>  
-Javascript:
+	</div> 
+	 
+Javascript: 
+
 	var slideup = new Slideup(switchOnElement, switchOffElement, dialogElement,
-		onCloseFn = function()
-		{
-			//fired on dialog close, optional			
-		});
+	onCloseFn = function()
+	{
+		//fired on dialog close, optional			
+	}); 
